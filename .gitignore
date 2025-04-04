@@ -10,4 +10,4 @@ __pycache__/
 .vscode
 build
 dist
-app.spec
+*.spec
