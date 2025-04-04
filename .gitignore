@@ -1,0 +1,13 @@
+.venv
+test
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.vscode
+build
+dist
+app.spec

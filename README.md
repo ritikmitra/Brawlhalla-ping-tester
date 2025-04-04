@@ -1,1 +1,5 @@
-# Brawlhalla-ping-tester
+# Brawlhalla Ping Tester
+
+## Main Features
+
+## Interface
