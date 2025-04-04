@@ -3,6 +3,7 @@ from tkinter import ttk
 from ping3 import ping
 import threading
 import darkdetect
+from utilities.util import resource_path
 
 
 class PingTestApp:
@@ -10,7 +11,7 @@ class PingTestApp:
         self.root = root
         self.root.title("Server Ping Test")
         # Set the icon (make sure to have an icon.png file)
-        root.iconphoto(False, tk.PhotoImage(file='./assets/icon.png'))
+        root.iconphoto(False, tk.PhotoImage(file=resource_path('assets/icon.png')))
 
         # Detect system theme
         self.is_dark = darkdetect.isDark() if hasattr(darkdetect, 'isDark') else False
